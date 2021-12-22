@@ -16,7 +16,6 @@ main()
 		printf("\n converted character is %c",ch);	
 		break;
 		case '0'...'9':
-			printf("it is a number",ch);
-			break;
+			printf("\n is a number",ch);
 	}
 }
