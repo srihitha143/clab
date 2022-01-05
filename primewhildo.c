@@ -1,15 +1,14 @@
 #include<stdio.h>
-main()
+int main()
 {
-	int i=1,n,count=0;
-	printf(" the given number");
+	int n,i=1,count=0;
 	scanf("%d",&n);
-	while(i<=n)
+    do
 	{
 		if(n%i==0)
 		count++;
 		i++;
-	}
+	}while(i<=n);
 	if(count<=2)
 	printf("%d it is a prime number",n);
 	else
